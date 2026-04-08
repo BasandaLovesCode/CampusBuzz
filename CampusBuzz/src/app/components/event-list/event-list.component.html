@@ -1,0 +1,33 @@
+<div class="page-wrapper">
+  <div class="page-header">
+    <h2>CampusBuzz - Event Listing</h2>
+    <p>Manage and promote campus events</p>
+  </div>
+
+  <div class="events-grid">
+    <mat-card class="event-card" *ngFor="let event of events">
+
+      <div class="card-body">
+        <div class="event-title">{{ event.eventTitle }}</div>
+        <div class="event-meta">
+          <div class="meta-item">
+            <span class="meta-icon">📍</span>
+            <span>{{ event.location }}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon">🎟️</span>
+            <span>{{ event.ticketPrice }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn-edit" mat-flat-button
+          [routerLink]="['/edit-event', event.eventId]">Edit</button>
+        <button class="btn-delete" mat-stroked-button
+          (click)="deleteEvent(event.eventId)">Delete</button>
+      </div>
+
+    </mat-card>
+  </div>
+</div>

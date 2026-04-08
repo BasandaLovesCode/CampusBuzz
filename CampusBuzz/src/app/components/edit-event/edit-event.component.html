@@ -1,0 +1,33 @@
+<div class="page-wrapper">
+  <div class="page-header">
+    <h2>Edit Event</h2>
+    <p>Update the details of this campus event</p>
+  </div>
+
+  <mat-card class="form-card">
+    <div class="form-field">
+      <label>Event Title</label>
+      <input type="text" [(ngModel)]="campusEvent.eventTitle"
+             name="eventTitle" />
+    </div>
+
+    <div class="form-field">
+      <label>Location</label>
+      <input type="text" [(ngModel)]="campusEvent.location"
+             name="location" />
+    </div>
+
+    <div class="form-field">
+      <label>Ticket Price</label>
+      <input type="text" [(ngModel)]="campusEvent.ticketPrice"
+             name="ticketPrice" />
+    </div>
+
+    <div class="form-actions">
+      <button class="btn-submit" mat-flat-button
+        (click)="updateEvent()">Save Changes</button>
+      <button class="btn-cancel" mat-stroked-button
+        (click)="cancel()">Cancel</button>
+    </div>
+  </mat-card>
+</div>

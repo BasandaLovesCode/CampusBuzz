@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusBuzz_API", "CampusBuzz_API\CampusBuzz_API.csproj", "{F413DBEA-DE4B-4A8B-9390-30110B3F2977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusBuzz_API.Tests", "CampusBuzz_API.Tests\CampusBuzz_API.Tests.csproj", "{8DE302D4-6AB1-474E-91A3-3EF7A9798C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F413DBEA-DE4B-4A8B-9390-30110B3F2977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F413DBEA-DE4B-4A8B-9390-30110B3F2977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F413DBEA-DE4B-4A8B-9390-30110B3F2977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F413DBEA-DE4B-4A8B-9390-30110B3F2977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE302D4-6AB1-474E-91A3-3EF7A9798C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE302D4-6AB1-474E-91A3-3EF7A9798C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE302D4-6AB1-474E-91A3-3EF7A9798C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE302D4-6AB1-474E-91A3-3EF7A9798C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DEA0565-DF34-4A27-8738-5688EA2ACB5E}
+	EndGlobalSection
+EndGlobal
