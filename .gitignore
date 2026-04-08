@@ -1,7 +1,4 @@
-# Angular
-node_modules/
-dist/
-.angular/
+.env.*
 
 # .NET
 bin/
@@ -12,5 +9,13 @@ obj/
 *.user
 *.suo
 
+# IDEs (optional)
+.vscode/
+.idea/
+
 # Logs
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
